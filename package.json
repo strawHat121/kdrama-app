@@ -1,0 +1,33 @@
+{
+  "name": "asian-dramas",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"./**/*.{js,jsx}\""
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.4.3",
+    "@reach/dialog": "^0.16.2",
+    "@reach/visually-hidden": "^0.16.0",
+    "@tailwindcss/forms": "^0.4.0",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-error-boundary": "^3.1.4",
+    "react-query": "^3.34.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "12.0.7",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "postcss": "^8.2.15",
+    "prettier": "^2.5.1",
+    "prop-types": "^15.8.0",
+    "tailwindcss": "^3.0.2"
+  }
+}
